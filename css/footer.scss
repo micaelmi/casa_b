@@ -1,0 +1,50 @@
+@import "functions";
+@import "colors";
+
+footer {
+  background-color: $primary-color-dark;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  border-bottom: 10px solid $primary-color;
+  .container {
+    @include flex(row, center, space-between);
+
+    .left {
+      @include flex(row, center, center);
+      gap: 2.5rem;
+      .links {
+        @include flex(column, baseline, center);
+        a {
+          color: $light-color;
+          line-height: 1.6rem;
+        }
+        .email {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .right {
+      @include flex(row, center, center);
+      gap: 2.5rem;
+      .instagram-feed {
+        width: 245px;
+        height: 120px;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    .container {
+      flex-direction: column;
+      gap: 2rem;
+      .left,
+      .right {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

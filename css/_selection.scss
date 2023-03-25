@@ -1,0 +1,11 @@
+@import "colors";
+// ====== SELECTION ====== //
+::-moz-selection {
+  color: $light-color;
+  background: $primary-color;
+}
+
+::selection {
+  color: $light-color;
+  background: $primary-color;
+}
