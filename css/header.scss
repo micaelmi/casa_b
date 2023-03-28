@@ -41,10 +41,11 @@ header {
   list-style: none;
   display: flex;
   height: max-content;
+  @include flex(row, center, center);
+  gap: 2rem;
 
   li {
     font-size: 24px;
-    margin-left: 35px;
     height: max-content;
     @include flex(row, center, center);
 
@@ -60,7 +61,7 @@ header {
 }
 
 .logo {
-  height: 3rem;
+  height: 40px;
 
   img {
     height: 100%;

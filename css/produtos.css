@@ -96,85 +96,67 @@ a {
   font-size: 1rem;
 }
 
+.hide-sm {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .hide-lg {
     display: none;
   }
+  .hide-sm {
+    display: block;
+  }
 }
 .hero {
+  background-color: #5c5c5c;
+}
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.hero img {
-  max-width: 90vw;
-  margin-top: 1rem;
-}
-.hero .categories {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-top: 4rem;
-  margin-bottom: 7.5rem;
-  color: #a4d65e;
-}
-
-.store {
+.hero .container p {
   background-color: #a4d65e;
-  padding: 20px 0 60px 0;
-}
-.store img {
-  width: 100vw;
+  color: #6e6259;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem 2rem 1rem;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  align-self: flex-end;
+  margin-top: -110px;
 }
 
-.services {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: -36px;
+.carousel .line {
+  position: relative;
+  top: -20px;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #a4d65e;
 }
-.services .category-cards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 700px;
-  gap: 3rem;
-  color: #fff;
+
+.brands {
+  background-color: #5c5c5c;
+  padding: 2.5rem;
 }
-.services .benefits {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  padding-inline: 1rem;
-}
-.services .benefits h2 {
+.brands h3 {
   color: #a4d65e;
-  font-size: 3rem;
+  font-weight: 400;
 }
-.services .benefits p {
+.brands ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.brands ul li {
   color: #fff;
-  margin: 0;
-  text-align: right;
-  font-size: 18px;
 }
 
-@media (max-width: 768px) {
-  .services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .services .benefits {
-    padding-top: 2rem;
-    padding-right: 2rem;
-  }
-}/*# sourceMappingURL=styles.css.map */
+footer {
+  margin-top: 0;
+}/*# sourceMappingURL=produtos.css.map */

@@ -5,6 +5,7 @@
   outline: none;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -109,10 +110,14 @@ header {
   display: flex;
   height: -moz-max-content;
   height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 .menu li {
   font-size: 24px;
-  margin-left: 35px;
   height: -moz-max-content;
   height: max-content;
   display: flex;
@@ -129,7 +134,7 @@ header {
 }
 
 .logo {
-  height: 3rem;
+  height: 40px;
 }
 .logo img {
   height: 100%;
