@@ -1,3 +1,5 @@
+@import "colors";
+
 /*=========== RESET ==========*/
 * {
   margin: 0;
@@ -22,4 +24,25 @@ img {
 .container {
   max-width: 1000px;
   margin-inline: auto;
+}
+
+body {
+  background-color: $secondary-color;
+}
+
+a {
+  font-size: 1rem;
+}
+
+.hide-sm {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hide-lg {
+    display: none;
+  }
+  .hide-sm {
+    display: block;
+  }
 }

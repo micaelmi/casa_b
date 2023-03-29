@@ -25,6 +25,26 @@ img {
   margin-inline: auto;
 }
 
+body {
+  background-color: #6e6259;
+}
+
+a {
+  font-size: 1rem;
+}
+
+.hide-sm {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hide-lg {
+    display: none;
+  }
+  .hide-sm {
+    display: block;
+  }
+}
 .hamburger {
   width: 30px;
   height: 30px;
@@ -80,6 +100,7 @@ header {
   top: 0;
   left: 0;
   align-items: center;
+  z-index: 100;
 }
 
 .navbar {

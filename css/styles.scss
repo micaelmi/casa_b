@@ -5,20 +5,6 @@
 @import "hamburger";
 @import "functions";
 
-body {
-  background-color: $secondary-color;
-}
-
-a {
-  font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-  .hide-lg {
-    display: none;
-  }
-}
-
 .hero {
   @include flex(column, center, center);
 
