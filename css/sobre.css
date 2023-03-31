@@ -107,4 +107,125 @@ body::-webkit-scrollbar-thumb {
   width: 70%;
   top: 45%;
   left: 15%;
+}
+
+.strip {
+  height: 80px;
+  width: 100%;
+  background-color: #a4d65e;
+  position: absolute;
+  top: 250px;
+  left: 0;
+  z-index: -10;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  color: #a4d65e;
+}
+
+h4 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: #fff;
+  max-width: 440px;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.about-us {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.about-us .subtitle {
+  color: #a4d65e;
+  margin-bottom: -1rem;
+}
+
+.team {
+  background-color: #5c5c5c;
+  border-top: 5px solid #a4d65e;
+  border-bottom: 5px solid #a4d65e;
+  padding: 4rem 0;
+}
+.team p {
+  margin-top: 0;
+}
+.team img {
+  padding: 3rem 0;
+}
+.team .description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.sustentability {
+  padding-top: 3rem;
+}
+.sustentability .content {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6rem;
+}
+.sustentability .content .left img {
+  margin-bottom: 4rem;
+}
+.sustentability .content .right img {
+  margin-top: 8rem;
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column;
+    padding-inline: 1rem;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+  }
+  .team .description {
+    flex-direction: column;
+  }
+  .sustentability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+  }
+  .sustentability .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .sustentability .content .left img {
+    margin-bottom: 0rem;
+  }
+  .sustentability .content .right {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .sustentability .content .right img {
+    margin-top: 0rem;
+  }
 }/*# sourceMappingURL=sobre.css.map */
