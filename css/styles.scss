@@ -61,6 +61,39 @@
   }
 }
 
+.aditional-information {
+  margin-top: 4rem;
+  background-color: $primary-color-dark;
+  h3 {
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 1.75rem;
+    padding: 4rem 1rem;
+  }
+  img {
+    margin-inline: auto;
+    width: 100vw;
+  }
+  .texts {
+    @include flex(row, flex-start, center);
+    gap: 3rem;
+    padding: 4rem 0;
+    div {
+      width: 50%;
+      padding-inline: 1rem;
+      p {
+        color: $light-color;
+      }
+    }
+  }
+  .divider {
+    height: 2px;
+    width: 80%;
+    margin-inline: auto;
+    background-color: $primary-color;
+  }
+}
+
 @media (max-width: 768px) {
   .services {
     @include flex(column, center, center);
@@ -68,6 +101,14 @@
     .benefits {
       padding-top: 2rem;
       padding-right: 2rem;
+    }
+  }
+  .aditional-information {
+    .texts {
+      flex-direction: column;
+      div {
+        width: 100%;
+      }
     }
   }
 }

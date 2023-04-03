@@ -174,6 +174,42 @@ body::-webkit-scrollbar-thumb {
   font-size: 18px;
 }
 
+.aditional-information {
+  margin-top: 4rem;
+  background-color: #3a4339;
+}
+.aditional-information h3 {
+  color: #a4d65e;
+  font-weight: 600;
+  font-size: 1.75rem;
+  padding: 4rem 1rem;
+}
+.aditional-information img {
+  margin-inline: auto;
+  width: 100vw;
+}
+.aditional-information .texts {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 0;
+}
+.aditional-information .texts div {
+  width: 50%;
+  padding-inline: 1rem;
+}
+.aditional-information .texts div p {
+  color: #fff;
+}
+.aditional-information .divider {
+  height: 2px;
+  width: 80%;
+  margin-inline: auto;
+  background-color: #a4d65e;
+}
+
 @media (max-width: 768px) {
   .services {
     display: flex;
@@ -184,5 +220,11 @@ body::-webkit-scrollbar-thumb {
   .services .benefits {
     padding-top: 2rem;
     padding-right: 2rem;
+  }
+  .aditional-information .texts {
+    flex-direction: column;
+  }
+  .aditional-information .texts div {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
