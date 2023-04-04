@@ -20,45 +20,17 @@
     <meta name="author" content="Micael Miranda" />
 
     <!-- LINKS PARA OUTROS ARQUIVOS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/sobre.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <script defer src="./js/main.js"></script>
-    <script defer src="./js/menu.js"></script>
+    <link rel="stylesheet" href="./css/whats.css" />
+    <!-- JS -->
+    <script src="./js/includes.js"></script>
   </head>
   <body>
-    <header>
-      <div class="linha-header"></div>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="index.html" class="hide-lg"
-            ><img src="img/icon.png" alt="Icone"
-          /></a>
-          <a href="index.html">
-            <img
-              src="img/logo-big.png"
-              alt="Logo Casa B - ir para Home"
-              class="hide-sm"
-            />
-          </a>
-        </div>
-        <input id="hamburger" type="checkbox" unchecked style="display: none" />
-        <label for="hamburger">
-          <div class="hamburger active"></div>
-        </label>
-        <div class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="sobre.html">Sobre nós</a></li>
-          <li><a style="color: #fff" href="contato.html">Contato</a></li>
-          <li>
-            <a href="https://www.instagram.com/casabconstrucao/" target="_blank"
-              ><img src="img/instagram.png" width="26" alt="Instagram"
-            /></a>
-          </li>
-        </div>
-      </nav>
-    </header>
+    <div id="whats"></div>
+    <div id="header"></div>
     <main>
       <div class="strip"></div>
       <section class="container about-us">
@@ -153,27 +125,6 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container">
-        <div class="left">
-          <img src="img/icon.png" alt="Ícone minimalista da Casa B" />
-          <div class="links">
-            <a href="index.html">HOME</a>
-            <a href="produtos.html">PRODUTOS</a>
-            <a href="sobre.html">COMO TRABALHAMOS</a>
-            <a href="contato.html">CONTATO</a>
-            <a href="mailto:construcaocasab@gmail.com" class="email"
-              >construcaocasab@gmail.com</a
-            >
-          </div>
-        </div>
-        <div class="right">
-          <div class="instagram-feed"></div>
-          <a href="#">
-            <img src="img/instagram.png" alt="Instagram" />
-          </a>
-        </div>
-      </div>
-    </footer>
+    <div id="footer"></div>
   </body>
 </html>

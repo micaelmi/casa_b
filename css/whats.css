@@ -1,0 +1,18 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  color: #6e6259;
+  background-color: #a4d65e;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #3a4339;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}/*# sourceMappingURL=whats.css.map */

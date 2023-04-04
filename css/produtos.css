@@ -254,6 +254,10 @@ body::-webkit-scrollbar-thumb {
   transform: rotate(180deg);
 }
 
+.mobile-slider {
+  display: none;
+}
+
 .brands {
   background-color: #5c5c5c;
   padding: 2.5rem;
@@ -278,7 +282,7 @@ footer {
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hero .container img {
     display: none;
   }
@@ -296,6 +300,48 @@ footer {
   .carousel {
     display: none;
   }
+  .mobile-slider {
+    display: block;
+    padding: 2rem 0;
+    margin-top: -125px;
+    z-index: 10;
+  }
+  .mobile-slider .card-slider {
+    display: flex;
+    overflow-x: scroll;
+    padding-inline: 2rem;
+  }
+  .mobile-slider .card-slider .card {
+    flex-shrink: 0;
+    width: 300px;
+    background-color: #a4d65e;
+    border: 1px solid #a4d65e;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  .mobile-slider .card-slider .card .content {
+    overflow: auto;
+  }
+  .mobile-slider .card-slider .card .content .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-slider .card-slider .card .content .description h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #6e6259;
+    font-weight: 500;
+  }
+  .mobile-slider .card-slider .card .content .description p {
+    font-size: 1rem;
+    padding: 0 1rem 1rem;
+  }
+}
+@media (max-width: 768px) {
   .brands h3 {
     font-size: 14px;
   }
