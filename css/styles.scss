@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap");
 @import "reset";
 @import "colors";
 @import "hamburger";
@@ -10,6 +10,13 @@
   img {
     max-width: 90vw;
     margin-top: 1rem;
+  }
+
+  h1 {
+    color: $light-color;
+    padding: 1rem;
+    font-size: 38px;
+    font-weight: 200;
   }
 
   .categories {
