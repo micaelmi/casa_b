@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@200;300&display=swap");
 @import "reset";
 @import "colors";
 @import "hamburger";
@@ -17,6 +17,8 @@
     padding: 1rem;
     font-size: 38px;
     font-weight: 200;
+    text-align: center;
+    font-family: "Poppins", "Inter", sans-serif;
   }
 
   .categories {
@@ -26,6 +28,7 @@
     margin-top: 4rem;
     margin-bottom: 7.5rem;
     color: $primary-color;
+    padding-inline: 1rem;
   }
 }
 
