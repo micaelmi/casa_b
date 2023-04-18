@@ -276,6 +276,7 @@ body::-webkit-scrollbar-thumb {
 }
 .brands ul li {
   color: #fff;
+  width: 90px;
 }
 
 footer {
@@ -343,13 +344,13 @@ footer {
 }
 @media (max-width: 768px) {
   .brands h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .brands ul {
     justify-content: flex-start;
     gap: 2rem;
   }
   .brands ul li {
-    font-size: 13px;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=produtos.css.map */

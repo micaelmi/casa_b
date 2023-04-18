@@ -203,20 +203,21 @@ a {
   font-size: 1.75rem;
   padding: 4rem 1rem;
 }
-.aditional-information img {
-  margin-inline: auto;
-  width: 100vw;
-}
 .aditional-information .texts {
+  max-width: 950px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: 3rem;
-  padding: 4rem 0;
+  padding: 1rem 0 4rem;
+}
+.aditional-information .texts img {
+  max-width: 90%;
+  padding-inline: 0.5rem;
+  margin-inline: auto;
 }
 .aditional-information .texts div {
-  width: 50%;
   padding-inline: 1rem;
 }
 .aditional-information .texts div p {

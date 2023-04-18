@@ -144,6 +144,7 @@
     padding: 1rem 0;
     li {
       color: $light-color;
+      width: 90px;
     }
   }
 }
@@ -216,13 +217,13 @@ footer {
 @media (max-width: 768px) {
   .brands {
     h3 {
-      font-size: 14px;
+      font-size: 16px;
     }
     ul {
       justify-content: flex-start;
       gap: 2rem;
       li {
-        font-size: 13px;
+        font-size: 14px;
       }
     }
   }
