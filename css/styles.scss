@@ -108,6 +108,11 @@
   .services {
     @include flex(column, center, center);
 
+    .category-cards {
+      gap: 1rem;
+      padding-inline: 1rem;
+    }
+
     .benefits {
       padding-top: 2rem;
       padding-right: 2rem;

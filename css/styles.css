@@ -237,6 +237,10 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .services .category-cards {
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
   .services .benefits {
     padding-top: 2rem;
     padding-right: 2rem;
