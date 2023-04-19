@@ -14,24 +14,84 @@ p {
 main {
   background-color: #5c5c5c;
 }
-main .container div {
+main .container .contact {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: baseline;
-  margin-bottom: 3rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
-main .container div address {
+main .container .contact .info,
+main .container .contact .opening-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+main .container .contact .info {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+main .container .contact .info a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  font-size: 1.25rem;
+  line-break: anywhere;
+}
+main .container .contact .info a img {
+  transition: 0.5s ease;
+}
+main .container .contact .info a img:hover {
+  transform: scale(1.1);
+}
+main .container .contact .opening-hours h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #a4d65e;
+  font-size: 1.5rem;
+}
+main .container .contact .opening-hours p {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+main .container address {
   font-size: 22px;
   color: #a4d65e;
   font-style: normal;
   padding-top: 1rem;
   width: 50%;
-}
-main .container div .tel {
-  width: 50%;
+  margin-bottom: 3rem;
 }
 main iframe {
   border: 0px;
   border-top: 80px solid #a4d65e;
+}
+
+@media (max-width: 768px) {
+  main .container {
+    padding-inline: 2rem;
+  }
+  main .container .contact {
+    flex-direction: column;
+  }
+  main .container .contact .info,
+  main .container .contact .opening-hours {
+    width: 100%;
+  }
+  main .container address {
+    width: 100%;
+  }
 }/*# sourceMappingURL=contato.css.map */

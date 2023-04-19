@@ -16,23 +16,74 @@ p {
 main {
   background-color: $tertiary-color;
   .container {
-    div {
+    .contact {
       @include flex(row, center, baseline);
-      address {
-        font-size: 22px;
-        color: $primary-color;
-        font-style: normal;
-        padding-top: 1rem;
+      gap: 2rem;
+      .info,
+      .opening-hours {
+        @include flex(column, flex-start, center);
         width: 50%;
       }
-      .tel {
-        width: 50%;
+      .info {
+        margin-top: 2rem;
+        @include flex(column, flex-start, center);
+        gap: 1.5rem;
+        a {
+          @include flex(row, center, center);
+          gap: 1rem;
+          color: $light-color;
+          font-size: 1.25rem;
+          line-break: anywhere;
+
+          img {
+            transition: 0.5s ease;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
       }
+      .opening-hours {
+        h2 {
+          @include flex(row, center, center);
+          gap: 1rem;
+          color: $primary-color;
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1.25rem;
+          line-height: 2.5rem;
+        }
+      }
+      margin-bottom: 2rem;
+    }
+    address {
+      font-size: 22px;
+      color: $primary-color;
+      font-style: normal;
+      padding-top: 1rem;
+      width: 50%;
       margin-bottom: 3rem;
     }
   }
   iframe {
     border: 0px;
     border-top: 80px solid $primary-color;
+  }
+}
+
+@media (max-width: 768px) {
+  main .container {
+    padding-inline: 2rem;
+    .contact {
+      flex-direction: column;
+      .info,
+      .opening-hours {
+        width: 100%;
+      }
+    }
+    address {
+      width: 100%;
+    }
   }
 }
