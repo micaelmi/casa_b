@@ -180,11 +180,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0.25rem;
   margin-bottom: 3rem;
 }
-.carousel #slider ul {
-  position: relative;
-  list-style: none;
-}
-.carousel #slider ul li {
+.carousel #slider .carousel-big li {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -194,7 +190,7 @@ body::-webkit-scrollbar-thumb {
   width: 1000px;
   text-align: center;
 }
-.carousel #slider ul li .content {
+.carousel #slider .carousel-big li .content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -202,23 +198,20 @@ body::-webkit-scrollbar-thumb {
   max-width: 80%;
   text-align: left;
 }
-.carousel #slider ul li .content img {
+.carousel #slider .carousel-big li .content img {
   border: 10px solid #a4d65e;
   border-radius: 0.5rem;
   width: 350px;
 }
-.carousel #slider ul li .content .description {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: end;
+.carousel #slider .carousel-big li .content .description {
   padding-left: 1rem;
 }
-.carousel #slider ul li .content .description h2 {
+.carousel #slider .carousel-big li .content .description h2 {
+  padding: 1rem 0;
   color: #6e6259;
   font-weight: 600;
 }
-.carousel #slider ul li .content .description p {
+.carousel #slider .carousel-big li .content .description p {
   color: #fff;
 }
 .carousel #slider button.control_prev,

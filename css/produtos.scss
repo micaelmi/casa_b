@@ -52,9 +52,9 @@
     border-radius: 0.25rem;
     margin-bottom: 3rem;
 
-    ul {
-      position: relative;
-      list-style: none;
+    .carousel-big {
+      // position: absolute;
+      // list-style: none;
 
       li {
         position: relative;
@@ -65,7 +65,6 @@
 
         .content {
           @include flex(row, center, center);
-          // align-items: flex-end;
           max-width: 80%;
           text-align: left;
 
@@ -76,9 +75,9 @@
           }
 
           .description {
-            @include flex(column, flex-start, end);
             padding-left: 1rem;
             h2 {
+              padding: 1rem 0;
               color: $secondary-color;
               font-weight: 600;
             }
