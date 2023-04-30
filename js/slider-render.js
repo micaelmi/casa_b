@@ -17,7 +17,7 @@ let items = [
     {
         image: 'img/hidraulica-eletrica-big.png',
         alt: 'Canos e peças',
-        title: 'Hidraulica e Elétrica',
+        title: 'Hidráulica e Elétrica',
         description: 'O planejamento correto de hidráulica e elétrica das construções é uma etapa importantíssima, afinal todos querem o conforto da iluminação adequada e tomadas disponíveis, vazão suficiente nas saídas de água além de banhos relaxantes.',
     },
     {

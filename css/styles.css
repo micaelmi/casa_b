@@ -175,6 +175,12 @@ a {
   gap: 3rem;
   color: #fff;
 }
+.services .category-cards .card {
+  transition: 0.5s ease;
+}
+.services .category-cards .card:hover {
+  transform: rotate(2deg);
+}
 .services .benefits {
   display: flex;
   flex-direction: column;

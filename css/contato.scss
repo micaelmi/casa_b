@@ -8,7 +8,7 @@ h1 {
 }
 p {
   color: $light-color;
-  max-width: 440px;
+  // max-width: 440px;
   font-size: 18px;
   margin-top: 1rem;
 }
@@ -17,7 +17,7 @@ main {
   background-color: $tertiary-color;
   .container {
     .contact {
-      @include flex(row, center, baseline);
+      @include flex(row, baseline, baseline);
       gap: 2rem;
       .info,
       .opening-hours {

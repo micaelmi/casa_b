@@ -251,6 +251,11 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.products-text {
+  color: #fff;
+  padding: 0 1rem 3rem;
+}
+
 .brands {
   background-color: #5c5c5c;
   padding: 2.5rem;

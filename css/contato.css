@@ -6,7 +6,6 @@ h1 {
 
 p {
   color: #fff;
-  max-width: 440px;
   font-size: 18px;
   margin-top: 1rem;
 }
@@ -17,7 +16,7 @@ main {
 main .container .contact {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: baseline;
   gap: 2rem;
   margin-bottom: 2rem;
