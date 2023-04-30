@@ -25,6 +25,11 @@ footer .container .left .links {
 footer .container .left .links a {
   color: #fff;
   line-height: 1.6rem;
+  transition: 0.5s ease;
+}
+footer .container .left .links a:hover {
+  color: #a4d65e;
+  text-decoration: underline;
 }
 footer .container .left .links .email {
   color: #a4d65e;

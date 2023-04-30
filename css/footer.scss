@@ -16,6 +16,11 @@ footer {
         a {
           color: $light-color;
           line-height: 1.6rem;
+          transition: 0.5s ease;
+          &:hover {
+            color: $primary-color;
+            text-decoration: underline;
+          }
         }
         .email {
           color: $primary-color;
