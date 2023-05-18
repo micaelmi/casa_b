@@ -1,11 +1,11 @@
 let hamburger;
 let menu;
-window.onload = function () {
+// window.onload = function () {
     hamburger = document.querySelector('.hamburger');
     menu = document.querySelector('.menu');
-    hamburger.addEventListener('click', teste)
-}
-function teste() {
+    hamburger.addEventListener('click', open);
+// }
+function open() {
     const active = document.getElementById("hamburger").checked;
     if (active) {
         menu.classList.remove('active');
