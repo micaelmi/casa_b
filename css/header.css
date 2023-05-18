@@ -163,7 +163,7 @@ header {
   justify-content: center;
   gap: 2rem;
 }
-.menu li {
+.menu div {
   font-size: 24px;
   height: -moz-max-content;
   height: max-content;
@@ -172,11 +172,11 @@ header {
   align-items: center;
   justify-content: center;
 }
-.menu li a {
+.menu div a {
   color: #a4d65e;
   transition: 0.5s ease;
 }
-.menu li a:hover {
+.menu div a:hover {
   color: #fff;
   text-decoration: underline;
 }
