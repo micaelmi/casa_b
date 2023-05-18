@@ -16,6 +16,8 @@ footer {
         a {
           color: $light-color;
           line-height: 1.6rem;
+          padding-top: 0.3rem;
+          padding-bottom: 0.3rem;
           transition: 0.5s ease;
           &:hover {
             color: $primary-color;
@@ -48,6 +50,9 @@ footer {
       .left,
       .right {
         flex-wrap: wrap;
+      }
+      .right {
+        flex-direction: column;
       }
     }
   }

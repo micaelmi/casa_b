@@ -119,7 +119,7 @@ a {
 }
 
 header {
-  background-color: rgba(110, 98, 89, 0.7294117647);
+  background-color: #6e6259;
   height: 80px;
   display: flex;
   position: sticky !important;

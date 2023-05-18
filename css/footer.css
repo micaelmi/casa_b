@@ -25,6 +25,8 @@ footer .container .left .links {
 footer .container .left .links a {
   color: #fff;
   line-height: 1.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   transition: 0.5s ease;
 }
 footer .container .left .links a:hover {
@@ -55,5 +57,8 @@ footer .container .right .instagram-feed {
   footer .container .left,
   footer .container .right {
     flex-wrap: wrap;
+  }
+  footer .container .right {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=footer.css.map */
