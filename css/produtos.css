@@ -262,7 +262,7 @@ body::-webkit-scrollbar-thumb {
 }
 .brands h3 {
   color: #a4d65e;
-  font-weight: 400;
+  font-weight: 500;
 }
 .brands ul {
   display: flex;
@@ -275,6 +275,7 @@ body::-webkit-scrollbar-thumb {
 .brands ul li {
   color: #fff;
   width: 90px;
+  line-height: 150%;
 }
 
 footer {

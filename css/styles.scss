@@ -24,12 +24,15 @@
   .categories {
     @include flex(row, center, center);
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.25rem;
     margin-top: 4rem;
     margin-bottom: 7.5rem;
-    color: $primary-color;
-    font-size: 1.1rem;
-    padding-inline: 1rem;
+    p {
+      color: $primary-color;
+      font-size: 1.1rem;
+      padding-inline: 1rem;
+      font-weight: 500;
+    }
   }
 }
 
@@ -37,6 +40,7 @@
   background-color: $primary-color;
   padding: 20px 0 60px 0;
 
+  picture,
   img {
     width: 100vw;
   }

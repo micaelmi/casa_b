@@ -143,18 +143,22 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1.25rem;
   margin-top: 4rem;
   margin-bottom: 7.5rem;
+}
+.hero .categories p {
   color: #a4d65e;
   font-size: 1.1rem;
   padding-inline: 1rem;
+  font-weight: 500;
 }
 
 .store {
   background-color: #a4d65e;
   padding: 20px 0 60px 0;
 }
+.store picture,
 .store img {
   width: 100vw;
 }

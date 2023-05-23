@@ -150,8 +150,9 @@ h2 {
   color: #a4d65e;
 }
 
-h4 {
+.sub {
   color: #fff;
+  margin-top: 0;
   margin-bottom: 2rem;
 }
 
@@ -174,6 +175,7 @@ p {
 .about-us .subtitle {
   color: #a4d65e;
   margin-bottom: -1rem;
+  font-weight: 500;
 }
 
 .team {

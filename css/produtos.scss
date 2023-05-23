@@ -139,7 +139,7 @@
   padding: 2.5rem;
   h3 {
     color: $primary-color;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   ul {
@@ -149,6 +149,7 @@
     li {
       color: $light-color;
       width: 90px;
+      line-height: 150%;
     }
   }
 }
