@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /footer.html
+Disallow: /whats.html
+
+Sitemap: https://casabconstrucao.com.br/sitemap.xml
